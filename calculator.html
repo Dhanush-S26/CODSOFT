@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <!--Css Link-->
+    <link rel="stylesheet" href="calculator.css" />
+    <!--Title Icon-->
+    <link
+      rel="icon"
+      href="https://tse3.mm.bing.net/th?id=OIP.I2PsDMPxm7Tr8TkyiS6QegHaH5&pid=Api&P=0&w=300&h=300"
+    />
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!--Cdn Link-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!--Calculator Section-->
+    <h1>CALCULATOR</h1>
+    <div class="calculator">
+      <div class="display" id="display"></div>
+      <div class="button">
+        <button onclick="displaytext(event)" id="btn1">(</button>
+        <button onclick="displaytext(event)" id="btn2">)</button>
+        <button onclick="displaytext(event)" id="btn3">%</button>
+        <button onclick="clearall()" id="btn4">AC</button>
+        <button onclick="displaytext(event)" id="btn5">7</button>
+        <button onclick="displaytext(event)" id="btn6">8</button>
+        <button onclick="displaytext(event)" id="btn7">9</button>
+        <button onclick="displaytext(event)" id="btn8">/</button>
+        <button onclick="displaytext(event)" id="btn9">4</button>
+        <button onclick="displaytext(event)" id="btn10">5</button>
+        <button onclick="displaytext(event)" id="btn11">6</button>
+        <button onclick="displaytext(event)" id="btn12">*</button>
+        <button onclick="displaytext(event)" id="btn13">1</button>
+        <button onclick="displaytext(event)" id="btn14">2</button>
+        <button onclick="displaytext(event)" id="btn15">3</button>
+        <button onclick="displaytext(event)" id="btn16">-</button>
+        <button onclick="displaytext(event)" id="btn17">0</button>
+        <button onclick="displaytext(event)" id="btn18">.</button>
+        <button onclick="result()" id="equal" id="btn20">=</button>
+        <button onclick="displaytext(event)" id="btn21">+</button>
+      </div>
+    </div>
+
+    <!--JavaScript Link-->
+    <script src="calculator.js"></script>
+  </body>
+</html>
